@@ -916,9 +916,9 @@ dependencies = [
 
 [[package]]
 name = "moka"
-version = "0.8.0"
+version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "55327ce58eed74a69fd80c75da97a08fbcbf61dbcb6917fcf8b84fa6435e70bb"
+checksum = "ef9d038ced38770a867f2300ef21e1193b5e26d8e8e060fa5c034d1dddc57452"
 dependencies = [
  "async-io",
  "async-lock",
@@ -1550,12 +1550,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6e63cff320ae2c57904679ba7cb63280a3dc4613885beafb148ee7bf9aa9042d"
 
 [[package]]
-name = "stable_deref_trait"
-version = "1.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3"
-
-[[package]]
 name = "strsim"
 version = "0.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1850,8 +1844,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c45e322b26410d7260e00f64234810c2f17d7ece356182af4df8f7ff07890f09"
 dependencies = [
  "memoffset 0.6.5",
- "serde",
- "stable_deref_trait",
 ]
 
 [[package]]
